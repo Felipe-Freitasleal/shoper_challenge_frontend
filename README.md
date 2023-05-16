@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# **Projeto Pokédex**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Back-end**
 
-## Available Scripts
+- https://github.com/Felipe-Freitasleal/shoper_challenge_backend
 
-In the project directory, you can run:
+## **Descrição**
 
-### `npm start`
+Página desenvolvida como front-end como teste técnico para a empresa Shopper.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este teste consiste no desenvolvimento de uma aplicação FullStack, com a criação de um banco de dados MySQL, consumo e consulta desse banco de dados com NodeJs, desenvolvimento de uma API para interação com o front-end e uma página no front-end.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Nesta página são renderizados os dados do banco de dados em tabelas, e é possível ao usuário atualizar o valor de algum produto pela entrada de seu código e novo valor em campos textuais, e clicando no botão "VERIFICAR".
 
-### `npm test`
+Neste ponta é gerado uma requisição, através da API, para o banco de dados. Nesse processo, é feito a verificação dos dados inseridos. Caso esteja tudo correto, é renderizado um botão chamado "ATUALIZAR". Clicando neste botão a página será carregada e os dados atualizados serão renderizados na tabela. Caso algum dado esteja errado, uma mensagem de erro aparecerá na tela.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Tecnologias utilizadaS**
 
-### `npm run build`
+- React
+- Javascript
+- CSS
+- HTML
+- Chakra UI
+- Axios
+- React Hooks
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **Funcionalidades do Projeto**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Visualizar tabelas de produtos e pacotes
+- Inserir o código e novo valor de um produto
+- Atualizar o valor de um produto e do pacote que ele possa pertencer
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **Layout**
 
-### `npm run eject`
+- **Home**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Estado inicial.
+<img src="./src/assets/home.png" alt="Home"/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Details Page**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Alerta de erro.
+<img src="./src/assets/error.png" alt=""/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Meus Pokémons**
 
-## Learn More
+Botão "ATUALIZAR" renderizado apenas em casoi de sucesso.
+<img src="./src/assets/sucess.png" alt="sucesso"/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## **Como executar este Projeto**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+ # Copie o link deste repositório e o clone em seu máquina usando o comando "git clone" em seu terminal.
+ $ git clone link
 
-### Code Splitting
+ # Acesse o diretório deste projeto com o comando "cd" em seu terminal e instale as dependências necessárias com o comando "npm install".
+ $ cd nome-do-diretório
+ $ npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ # Execute este projeto com o comando "npm run start" em seu terminal.
+ $ npm run start
+```
 
-### Analyzing the Bundle Size
+## **Autor**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ <img style="height:250px" src="./src/assets/WhatsApp Image 2023-04-03 at 13.26.01.jpeg" alt="foto autor"/>
 
-### Making a Progressive Web App
+Felipe Freitas Leal
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="https://www.linkedin.com/in/felipe-freitas-leal/">Linkedin</a>
