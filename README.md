@@ -1,4 +1,4 @@
-# **Projeto Pokédex**
+# **SHOPPER FRONT END**
 
 ## **Back-end**
 
