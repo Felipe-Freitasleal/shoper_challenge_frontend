@@ -42,9 +42,9 @@ Estado inicial.
 Alerta de erro.
 <img src="./src/assets/error.png" alt=""/>
 
-- **Meus Pokémons**
+- **Botão de Atualização**
 
-Botão "ATUALIZAR" renderizado apenas em casoi de sucesso.
+Botão "ATUALIZAR" renderizado apenas em caso de sucesso.
 <img src="./src/assets/sucess.png" alt="sucesso"/>
 
 ## **Como executar este Projeto**
